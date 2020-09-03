@@ -1,0 +1,1 @@
+![Website Screenshot](img/screenshot.png)
