@@ -47,3 +47,79 @@ header ul li {
     background: #000;
     border-radius: 0 0 20px 20px;
 }
+
+.content {
+    width: 100%;
+    float: left;
+    margin-bottom: 1.875em;
+}
+
+.content .topContent .topRight {
+    width: 65%;
+    float: right;
+}
+
+.content .topContent .topRight h2 {
+    width: 140px;
+    padding: 0 10px;
+    float: right;
+    clear: both;
+    margin-bottom: 10px;
+    background: #FFF;
+    color: #000;
+    font-family: "Lobster", cursive;
+    font-size: 30px;
+}
+
+.content .topContent .topRight p {
+    width: 100%;
+    float: right;
+}
+
+.content .bottomContent {
+    width: 100%;
+    float: left;
+    margin: 0 0.5em;
+}
+
+.content .bottomContent .column {
+    width: 33%;
+    float: left;
+    padding: 0 10px;
+    border-right: 1px solid #FFF;
+}
+
+.content .bottomContent .column.column:last-child {
+    border: none;
+}
+
+.content .bottomContent .column h3 {
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: "Lobster", cursive;
+    background-color: #D80E0E;
+}
+
+.content .bottomContent .column p {
+    line-height: 1.2em;
+}
+
+.content .bottomContent .column a.readMore {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 0 10px;
+    background: #FFF;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    float: left;
+    margin-top: 1.875em;
+    padding: 10px 10px 5px;
+    border-radius: 10px;
+    background: #fff;
+}
