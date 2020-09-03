@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 75%;
+    max-width: 75em;
+    height: auto;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 7em;
+    padding: 0 20px 10px;
+    background: #D80E0E;
+    border-radius: 0 0 10px 10px;
+}
+
+header a {
+    color: #000;
+    font-family: "Lobster", cursive;
+    font-size: 70px;
+    float: left;
+    text-decoration: none;
+}
+
+header nav {
+    height: 100%;
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+
+header ul {
+    height: 100%;
+    list-style: none;
+}
+
+header ul li {
+    height: 100%;
+    display: inline-block;
+    padding: 0 5px;
+    margin: 0 5px;
+    background: #000;
+    border-radius: 0 0 20px 20px;
+}
